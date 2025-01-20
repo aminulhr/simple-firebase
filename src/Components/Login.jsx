@@ -9,7 +9,7 @@ import { useState } from "react";
 import app from "../firebase.init";
 
 const Login = () => {
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState(null);
   const auth = getAuth(app);
   const Provider = new GoogleAuthProvider();
   const gitHubProvider = new GithubAuthProvider();
