@@ -77,6 +77,13 @@ const Login = () => {
           <h1 className="text-6xl ">user: {user.displayName}</h1>
           <h1 className="text-4xl ">Email: {user.email}</h1>
           <img src={user.photoURL} alt="" />
+          <img src={user.photoURL} alt="" />
+          <img src={user.photoURL} alt="" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            reprehenderit eius quaerat sunt sint quam tempore, tenetur enim
+            optio est.
+          </p>
         </div>
       )}
     </div>
